@@ -4,20 +4,19 @@ import { createRoot } from 'react-dom/client';
 function Toggle() {
   const [isOn, setIsOn] = useState(true);
 
-  function handleClick() {
-    // Toggle the state when the button is clicked
+  function handleClick() {    
     setIsOn(!isOn);
   }
 
   return (
     <button
       onClick={handleClick}
-      className={isOn ? 'on' : 'off'} // Add classes based on the state
+      className={isOn ? 'on' : 'off'} 
       style={{
         padding: '10px 20px',
         fontSize: '16px',
         fontWeight: 'bold',
-        backgroundColor: isOn ? '#4CAF50' : '#f44336', // Green for ON, Red for OFF
+        backgroundColor: isOn ? '#4CAF50' : '#f44336', 
         color: '#fff',
         cursor: 'pointer',
         border: 'none',

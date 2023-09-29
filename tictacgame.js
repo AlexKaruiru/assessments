@@ -15,7 +15,7 @@ const squareStyle = {
   'alignItems': 'center',
   'fontSize': '20px',
   'color': 'white',
-  'cursor': 'pointer' // Add cursor style
+  'cursor': 'pointer' 
 }
 
 const boardStyle = {
